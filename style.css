@@ -1,0 +1,202 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('Image/587526.jpg'); /* path ke gambarnya */
+    background-size: cover;           /* Biar gambar menutupi seluruh halaman */
+    background-position: center;      /* Pusatkan gambar */
+    background-repeat: no-repeat;     /* Jangan ulang gambar */
+    color: #ff0000;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #bd1414;
+    text-shadow: 1px 1px 3px #000;
+  }
+  
+  table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #0d0d18;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #251a1a;
+    font-size: 15px;
+  }
+  
+  th {
+    background-color: #02021d;
+    color: #ffffff;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+  }
+  
+  tr:hover {
+    background-color: #21214b;
+    cursor: pointer;
+  }
+  
+  td a {
+    color: #ffcc00;
+    text-decoration: none;
+  }
+  
+  td a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #aaa;
+  }
+
+  h2{
+    text-align: left;
+    padding: 15px;
+    color: aliceblue;
+    font-size: 48px;
+  }
+
+  h3{
+    padding: 15px;
+    font-size: 25px;
+    color: #aaa;
+  }
+
+  .image img {
+  width: 1000px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+body.halaman-download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #111;
+  margin: 0;
+}
+
+.download-btn {
+  color: #0ff;
+  padding: 12px 30px;
+  font-size: 18px;
+  font-family: sans-serif;
+  border: 2px solid #0ff;
+  border-radius: 10px;
+  background: transparent;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 0 10px #0d0d18, 0 0 20px #00ff20;
+}
+
+.download-btn:hover {
+  box-shadow: 0 0 20px #0ff, 0 0 40px #0ff, 0 0 60px #0ff;
+  color: #000;
+  background: #0ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body.navbar {
+  background-color: #111;
+  font-family: sans-serif;
+  padding-top: 70px; /* supaya konten lain tidak ketutup navbar */
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  box-shadow: 0 2px 10px rgba(0, 255, 255, 0.2);
+  z-index: 999;
+}
+
+.nav-item {
+  color: #0ff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+.nav-item:hover {
+  color: #fff;
+  text-shadow: 0 0 10px #0ff;
+}
+
+body.system.requitments {
+  background: #111;
+  color: #fff;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 50px 60px;
+  text-align: center;
+}
+
+.requirements-section h2 {
+  font-size: 32px;
+  color: #0ff;
+  text-shadow: 0 0 10px #0ff;
+  margin-bottom: 30px;
+}
+
+.requirements {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.req-box {
+  background: rgba(0, 255, 255, 0.05);
+  border: 1px solid #0ff;
+  border-radius: 12px;
+  padding: 50px 80px;
+  width: 800px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+  transition: 0.3s;
+}
+
+.req-box:hover {
+  box-shadow: 0 0 25px #0ff;
+}
+
+.req-box h3 {
+  color: #0ff;
+  margin-bottom: 15px;
+}
+
+.req-box ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.req-box ul li {
+  margin-bottom: 10px;
+}
+
