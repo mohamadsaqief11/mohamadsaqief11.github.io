@@ -4,14 +4,14 @@ body {
     background-size: cover;           /* Biar gambar menutupi seluruh halaman */
     background-position: center;      /* Pusatkan gambar */
     background-repeat: no-repeat;     /* Jangan ulang gambar */
-    color: #ff0000;
+    color: #ffffff;
     margin: 0;
     padding: 20px;
   }
   
   h1 {
     text-align: center;
-    color: #bd1414;
+    color: #ca0606;
     text-shadow: 1px 1px 3px #000;
   }
   
